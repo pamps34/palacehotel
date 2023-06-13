@@ -1,0 +1,50 @@
+#flex{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+} 
+body{
+    background-color: #7a3fa3;
+    border: 0;
+}
+
+h2{
+    color: #ebceef;
+}
+#button{
+    background-color: #ebceef;
+    width: 130px;
+    height: 30px;
+    border-color: #ebceef;
+    color: #7a3fa3;
+    border-radius: 20px;
+} 
+#setaes {
+    color: #7a3fa3;
+    background-color: #ebceef;
+}
+
+#setas {
+    min-width: 30%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#setadi {
+    color: #7a3fa3;
+    background-color: #ebceef;
+    }
+
+    #cabeçário{
+        width: 100%;
+        height: 30px;
+        background-color: #ebceef;
+        display: fixed;
+        right: 50%;
+        top:50%;
+    }
