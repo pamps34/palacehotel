@@ -1,0 +1,78 @@
+h2{
+    color: #ebceef;
+}
+
+#button{
+    background-color: #ebceef;
+    width: 150px;
+    height: 40px;
+    border-color: #ebceef;
+    color: #7a3fa3;
+    border-radius: 30px;
+}
+
+#concluido{
+    width: 200px;
+    height: 200px;
+}
+
+#negado{
+    width: 150px;
+    height: 150px;
+}
+body{
+    background-color: #7a3fa3;
+    border: 0;
+}
+
+#cabeçário {
+    width: 90px;
+    height: 90px;
+    color: #ebceef;
+      margin:0;
+}
+
+h3{
+    color: #ebceef;
+    display: flex;
+    font-weight: 300;
+
+}
+
+#logohotel{
+    width: 30%;
+    height: 30%;
+}
+
+#hotel{
+    height: 30%;
+    width: 30%;
+    
+}
+
+#estrelas{
+    height: 10%;
+    width: 10%;
+}
+
+.box {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-flow: row wrap;
+  }
+
+#flex{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+}
+#cabeçário{
+    width: 100%;
+    height: 30px;
+    background-color: #ebceef;
+    display: fixed;
+    right: 50%;
+    top:50%;
+}
