@@ -1,0 +1,73 @@
+body{
+    background-color: #7a3fa3;;
+    border: 0;
+}
+
+#cabeçário {
+    width: 90px;
+    height: 90px;
+    color: #ebceef;
+}
+
+h3{
+    color: #ebceef;
+    display: flex;
+    font-weight: 300;
+
+}
+
+#logohotel{
+    width: 30%;
+    height: 30%;
+}
+
+#hotel{
+    height: 300px;
+    width: 400px;
+    
+}
+
+#estrelas{
+    height: 150px;
+    width: 150px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-flow: row wrap;
+    background-color: #ebceef;
+    border-radius:15px;
+  }
+
+#flex{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+
+}
+
+#botao {
+    width: 90px;
+    height: 50px;
+    background-color: #ebceef;
+    border-color: #ebceef;
+    border-radius:15px;
+    border: none;
+}
+
+#botaoq {
+    width: 90px;
+    height: 50px;
+    background-color: #ebceef;
+    border-color: #ebceef;
+    border: 2px solid #7a3fa3;
+    border-top: none;
+    border-bottom: none;
+}
+
+a{
+    text-decoration: none;
+}
