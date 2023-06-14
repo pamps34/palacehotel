@@ -1,0 +1,36 @@
+#flex{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+} 
+
+#button{
+    background-color: #ebceef;
+    width: 150px;
+    height: 40px;
+    border-color: #ebceef;
+    color: #7a3fa3;
+    border-radius: 30px;
+} 
+
+body{
+    background-color: #7a3fa3;
+    border: 0;
+}
+
+h2{
+    color: #7a3fa3;
+}
+
+h1{
+    color: #ebceef;
+}
+
+select{
+    color: #7a3fa3;
+    border-radius: 30px;
+    width: 150px;
+    height: 30px;
+}
